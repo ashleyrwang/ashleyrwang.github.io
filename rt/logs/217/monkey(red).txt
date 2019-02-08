@@ -1,0 +1,36 @@
+2018-12-10 01:05:03pm   LOGIN    Level:    Cards: 
+2018-12-10 01:05:41pm   LOGIN    Level:    Cards: 
+2018-12-10 01:05:46pm   LOGOUT   Level: 4-1   Cards: 
+2018-12-10 01:06:03pm   LOGOUT   Level: 4-1   Cards: 
+2018-12-10 01:06:56pm   RUN         Level: 4-1   Cards: event,right,right
+2018-12-10 01:06:58pm   LOGOUT   Level: 4-1   Cards: 
+2018-12-10 01:07:57pm   LOGIN    Level:    Cards: 
+2018-12-10 01:08:09pm   LOGIN    Level:    Cards: 
+2018-12-10 01:09:43pm   LOGIN    Level:    Cards: 
+2018-12-10 01:10:04pm   RUN         Level: 1-1   Cards: event,move,move,move
+2018-12-10 01:10:09pm   COMPLETE    Level: 1-1   Cards: 
+2018-12-10 01:11:14pm   RUN         Level: 1-2   Cards: event,left,move,move,move
+2018-12-10 01:11:26pm   RUN         Level: 1-2   Cards: event,left,move,move
+2018-12-10 01:11:29pm   COMPLETE    Level: 1-2   Cards: 
+2018-12-10 01:12:01pm   RUN         Level: 1-3   Cards: event,move
+2018-12-10 01:12:08pm   RUN         Level: 1-3   Cards: event,move,left
+2018-12-10 01:12:28pm   RUN         Level: 1-3   Cards: event,move,left,move,move,move
+2018-12-10 01:12:32pm   COMPLETE    Level: 1-3   Cards: 
+2018-12-10 01:14:19pm   RUN         Level: 1-4   Cards: event,move,left
+2018-12-10 01:14:42pm   RUN         Level: 1-4   Cards: event,move,left,move,move,left
+2018-12-10 01:15:07pm   RUN         Level: 1-4   Cards: event,move,left,move,move,left,move,right,move
+2018-12-10 01:15:13pm   COMPLETE    Level: 1-4   Cards: 
+2018-12-10 01:22:01pm   RUN         Level: 1-5   Cards: event,left,move,right,move,laser,move
+2018-12-10 01:22:18pm   RUN         Level: 1-5   Cards: event,left,move,left,move,laser,move
+2018-12-10 01:22:50pm   RUN         Level: 1-5   Cards: event,left,move,move,move,laser,move
+2018-12-10 01:23:14pm   RUN         Level: 1-5   Cards: event,left,move,move,laser,move
+2018-12-10 01:23:54pm   RUN         Level: 1-5   Cards: move,event,left,move,move,right
+2018-12-10 01:24:09pm   RUN         Level: 1-5   Cards: event,left,move,move,right,move,move
+2018-12-10 01:24:14pm   COMPLETE    Level: 1-5   Cards: 
+2018-12-10 01:24:48pm   RUN         Level: 1-5   Cards: event,left,move,move,right,move,laser,move
+2018-12-10 01:24:53pm   COMPLETE    Level: 1-5   Cards: 
+2018-12-10 01:25:06pm   RUN         Level: 1-5   Cards: event,left,move,move,right,move,laser,move
+2018-12-10 01:25:16pm   COMPLETE    Level: 1-5   Cards: 
+2018-12-10 01:30:22pm   LOGIN    Level:    Cards: 
+2018-12-10 01:31:58pm   RUN         Level: 1-6   Cards: event,left,move,move,right,move,move,right,move
+2018-12-10 01:32:03pm   COMPLETE    Level: 1-6   Cards: 

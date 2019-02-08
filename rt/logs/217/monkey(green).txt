@@ -1,0 +1,88 @@
+2018-12-10 01:06:23pm   LOGOUT   Level: 1-1   Cards: 
+2018-12-10 01:07:45pm   RUN         Level: 1-1   Cards: event,move,move,move
+2018-12-10 01:07:47pm   COMPLETE    Level: 1-1   Cards: 
+2018-12-10 01:08:12pm   RUN         Level: 1-2   Cards: event,left,move,move
+2018-12-10 01:08:17pm   COMPLETE    Level: 1-2   Cards: 
+2018-12-10 01:08:45pm   RUN         Level: 1-3   Cards: event,move,left,move,move,move
+2018-12-10 01:08:48pm   COMPLETE    Level: 1-3   Cards: 
+2018-12-10 01:09:21pm   RUN         Level: 1-4   Cards: event,move,left,move,move
+2018-12-10 01:09:39pm   RUN         Level: 1-4   Cards: event,move,left,move,move,move,left,move
+2018-12-10 01:09:45pm   COMPLETE    Level: 1-4   Cards: 
+2018-12-10 01:10:18pm   RUN         Level: 1-5   Cards: event,left,move,move,right,move,move
+2018-12-10 01:10:22pm   COMPLETE    Level: 1-5   Cards: 
+2018-12-10 01:11:07pm   RUN         Level: 1-6   Cards: event,left,move,move,right,move,move
+2018-12-10 01:11:18pm   RUN         Level: 1-6   Cards: event,left,move,move,right,move,move,right,move
+2018-12-10 01:11:24pm   COMPLETE    Level: 1-6   Cards: 
+2018-12-10 01:12:19pm   RUN         Level: 1-7   Cards: event,left,move,move,right,move,move
+2018-12-10 01:12:38pm   RUN         Level: 1-7   Cards: event,left,move,move,right,move,move,move,right,move
+2018-12-10 01:12:49pm   RUN         Level: 1-7   Cards: event,left,move,move,right,move,move,move,right,move,move
+2018-12-10 01:13:09pm   RUN         Level: 1-7   Cards: event,left,move,move,right,move,move,move,right,move,move,right,move
+2018-12-10 01:13:17pm   COMPLETE    Level: 1-7   Cards: 
+2018-12-10 01:13:57pm   RUN         Level: 1-8   Cards: event,move,left,move,move
+2018-12-10 01:14:27pm   RUN         Level: 1-8   Cards: event,move,left,move,move,right,move,move,right,move
+2018-12-10 01:14:33pm   COMPLETE    Level: 1-8   Cards: 
+2018-12-10 01:15:34pm   RUN         Level: 1-9   Cards: event,move,left,move,right,move,move,left,move,move
+2018-12-10 01:15:51pm   RUN         Level: 1-9   Cards: event,move,left,move,right,move,move,left,move,move,left,move
+2018-12-10 01:15:58pm   COMPLETE    Level: 1-9   Cards: 
+2018-12-10 01:16:48pm   RUN         Level: 1-10   Cards: event,left,move,right,move
+2018-12-10 01:16:59pm   RUN         Level: 1-10   Cards: event,left,move,right,move,left
+2018-12-10 01:17:20pm   RUN         Level: 1-10   Cards: event,left,move,right,move,left,move,move,move
+2018-12-10 01:17:32pm   RUN         Level: 1-10   Cards: event,left,move,right,move,left,move,move,right
+2018-12-10 01:18:06pm   RUN         Level: 1-10   Cards: event,left,move,right,move,left,move,move,right,move,move,right,move
+2018-12-10 01:18:14pm   COMPLETE    Level: 1-10   Cards: 
+2018-12-10 01:19:22pm   RUN         Level: 1-11   Cards: event,left,move,move,right,move,left,move,right,move,move,move,move
+2018-12-10 01:19:52pm   RUN         Level: 1-11   Cards: event,left,move,move,right,move,left,move,right,move,move,right,move,move
+2018-12-10 01:20:01pm   COMPLETE    Level: 1-11   Cards: 
+2018-12-10 01:20:20pm   RUN         Level: 1-12   Cards: event,move,left,move
+2018-12-10 01:20:45pm   RUN         Level: 1-12   Cards: event,move,left,move,right,move,left
+2018-12-10 01:21:14pm   RUN         Level: 1-12   Cards: event,move,left,move,right,move,left,move,right,move,move,move
+2018-12-10 01:21:38pm   RUN         Level: 1-12   Cards: event,move,left,move,right,move,left,move,right,move,left,move,move
+2018-12-10 01:21:55pm   RUN         Level: 1-12   Cards: event,move,left,move,right,move,left,move,right,move,left,move
+2018-12-10 01:22:02pm   COMPLETE    Level: 1-12   Cards: 
+2018-12-10 01:22:34pm   RUN         Level: 2-1   Cards: event,laser,move,move,move
+2018-12-10 01:22:37pm   COMPLETE    Level: 2-1   Cards: 
+2018-12-10 01:23:16pm   RUN         Level: 2-2   Cards: event,move,move,left,laser
+2018-12-10 01:23:27pm   RUN         Level: 2-2   Cards: event,move,move,left,laser,move,move
+2018-12-10 01:23:32pm   COMPLETE    Level: 2-2   Cards: 
+2018-12-10 01:23:51pm   RUN         Level: 2-3   Cards: event,laser,move,laser,move
+2018-12-10 01:24:04pm   RUN         Level: 2-3   Cards: event,laser,move,laser,move,left
+2018-12-10 01:24:13pm   RUN         Level: 2-3   Cards: event,laser,move,laser,move,left,move
+2018-12-10 01:24:17pm   COMPLETE    Level: 2-3   Cards: 
+2018-12-10 01:25:14pm   RUN         Level: 2-4   Cards: event,move,move,left,move,laser,move,right,laser
+2018-12-10 01:25:35pm   RUN         Level: 2-4   Cards: event,move,move,left,move,laser,move,right,laser,move,left,move
+2018-12-10 01:25:42pm   COMPLETE    Level: 2-4   Cards: 
+2018-12-10 01:26:12pm   RUN         Level: 2-5   Cards: event,left,move
+2018-12-10 01:26:32pm   RUN         Level: 2-5   Cards: event,left,move,right,laser,move
+2018-12-10 01:26:40pm   RUN         Level: 2-5   Cards: event,left,move,right,laser,move
+2018-12-10 01:28:38pm   RUN         Level: 2-5   Cards: event,left,move,right,laser,move,move,left,move
+2018-12-10 01:28:43pm   COMPLETE    Level: 2-5   Cards: 
+2018-12-10 01:30:26pm   RUN         Level: 2-6   Cards: event,laser,move,move,left,laser,move,left,laser,move,move
+2018-12-10 01:30:44pm   RUN         Level: 2-6   Cards: event,laser,move,move,left,laser,move,left,laser
+2018-12-10 01:30:58pm   RUN         Level: 2-6   Cards: event,laser,move,move,left,laser,move,move
+2018-12-10 01:31:11pm   RUN         Level: 2-6   Cards: event,laser,move,move,left,laser,move,move,left,move
+2018-12-10 01:31:27pm   RUN         Level: 2-6   Cards: move,event,laser,move,move,left,laser,move,move,left,laser,move
+2018-12-10 01:31:39pm   RUN         Level: 2-6   Cards: event,laser,move,move,left,laser,move,move,left,laser,move,move
+2018-12-10 01:31:47pm   COMPLETE    Level: 2-6   Cards: 
+2018-12-10 01:32:29pm   RUN         Level: 2-7   Cards: event,move,left,move,laser,move,right,move
+2018-12-10 01:32:54pm   RUN         Level: 2-7   Cards: event,move,left,move,laser,move,right,laser,move
+2018-12-10 01:33:11pm   RUN         Level: 2-7   Cards: event,move,left,move,laser,move,right,laser,move,left,move
+2018-12-10 01:33:18pm   COMPLETE    Level: 2-7   Cards: 
+2018-12-10 01:33:56pm   RUN         Level: 2-8   Cards: event,move,laser,move
+2018-12-10 01:34:31pm   RUN         Level: 2-8   Cards: event,move,laser,move,left
+2018-12-10 01:34:46pm   RUN         Level: 2-8   Cards: event,move,laser,move,left,move,laser,move
+2018-12-10 01:34:58pm   RUN         Level: 2-8   Cards: event,move,laser,move,left,move,laser,move,left,move
+2018-12-10 01:35:15pm   RUN         Level: 2-8   Cards: event,move,laser,move,left,move,laser,move,left,move,right,move
+2018-12-10 01:35:23pm   COMPLETE    Level: 2-8   Cards: 
+2018-12-10 01:35:44pm   RUN         Level: 2-9   Cards: event,laser,move
+2018-12-10 01:35:56pm   RUN         Level: 2-9   Cards: event,laser,move,left,laser,move
+2018-12-10 01:36:09pm   RUN         Level: 2-9   Cards: event,laser,move,left,laser,move,laser,move
+2018-12-10 01:36:27pm   RUN         Level: 2-9   Cards: event,laser,move,left,laser,move,laser,move,right,move,move
+2018-12-10 01:36:34pm   COMPLETE    Level: 2-9   Cards: 
+2018-12-10 01:37:56pm   RUN         Level: 2-10   Cards: event,laser,move,move,left,laser,move,right,move
+2018-12-10 01:38:12pm   RUN         Level: 2-10   Cards: event,laser,move,move,left,laser,move,right,move,left,laser
+2018-12-10 01:38:25pm   RUN         Level: 2-10   Cards: event,laser,move,move,left,laser,move,right,move,left,laser,move,move
+2018-12-10 01:38:34pm   COMPLETE    Level: 2-10   Cards: 
+2018-12-10 01:38:48pm   RUN         Level: 3-1   Cards: event,move
+2018-12-10 01:38:53pm   RUN         Level: 3-1   Cards: event,move,move
+2018-12-10 01:39:01pm   RUN         Level: 3-1   Cards: event,move,move,left,move
+2018-12-10 01:39:04pm   COMPLETE    Level: 3-1   Cards: 
