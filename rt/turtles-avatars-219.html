@@ -34,7 +34,7 @@
   <td>       </td>
 </table>
 <table><text style="font-size:60px;">Click on your sticker!</text></table>
-<table><a href="turtles-teachers.html"><img src="art_assets/back_button.png"></a></table>
+<table><a href="/rt/turtles-teachers.html"><img src="art_assets/back_button.png"></a></table>
 
 <script>
 
@@ -61,7 +61,7 @@
 
   function load(id) {
 	send("LOGIN ", id, room, "", "");
-	location.href = "/turtles.html?avatar="+id+"&room="+room;	
+	location.href = "/rt/turtles.html?avatar="+id+"&room="+room;	
     localStorage.setItem("curr_id", room+id); // caching avatar for identification
   }
 
