@@ -364,12 +364,12 @@
 	  document.getElementById("avatar_img").onclick = function() {
 		if (avatar != "question")
 			  send("LOGOUT", avatar, inst, level);
-		location.href = "/turtles-teachers.html";
+		location.href = "/rt/turtles-teachers.html";
 	  }
 
 	  document.getElementById("exit").onclick = function() {
 		send("LOGOUT", avatar, inst, level);
-		location.href = "/turtles-teachers.html";
+		location.href = "/rt/turtles-teachers.html";
 	  }
 
 	  // Send Log Entry to Server
@@ -583,7 +583,7 @@
                 avatar = room_array[avatar_index-1];
                 localStorage.setItem("curr_id", room+avatar);
                 console.log(localStorage.curr_id);
-                location.href = "/turtles.html?avatar="+avatar+"&room="+room;	
+                location.href = "/rt/turtles.html?avatar="+avatar+"&room="+room;	
             }
           } else {
             console.log("Error");
@@ -612,7 +612,7 @@
                 avatar = room_array[avatar_index+1];
                 localStorage.setItem("curr_id", room+avatar);
                 console.log(localStorage.curr_id);
-                location.href = "/turtles.html?avatar="+avatar+"&room="+room;	
+                location.href = "/rt/turtles.html?avatar="+avatar+"&room="+room;	
             }
           } else {
             console.log("Error");
