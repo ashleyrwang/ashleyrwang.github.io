@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href= "main.css">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    
+    </head>
+    <body>
+        <div id="dotstyle">
+            <div id = "dot1" class = "dot"><a href="#home" id = "dot1">Home</a></div>
+            <div id = "dot2" class = "dot"><a href="#about" id = "dot2">About</a></div>
+            <div id = "dot3" class = "dot"><a href="#projects" id = "dot3">Projects</a></div>
+            <div id = "dot4" class = "dot"><a href="#resume" id = "dot4">Resume</a></div>
+            <div id = "dot5" class = "dot"><a href="#contact" id = "dot5">Contact</a></div>
+        </div>
+        
+        <div id = "page1">
+        <a id = "home"></a>
+        <div class = "background">
+            <div class = "header">
+                <div class = "title">
+                    hi, i'm ashley wang.
+                </div>
+                <table id = "nav">
+                    <tr>
+                        <th><a href="#about">ABOUT</a></th>
+                        <th><a href="#projects">PROJECTS</a></th>
+                        <th><a href="#resume">RESUMÉ</a></th>
+                        <th><a href="#contact">CONTACT</a></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        </div>
+
+        <div id = "page2">
+            <a id = "about"></a>
+            <div class = "two_left">
+                <div id = "about_title">
+                    <div id = "about_title_text">about ashley</div>
+                </div>
+                <div id ="about_text">
+                    <p>In 2012, I created an account on the social media platform <a href="https://www.tumblr.com">Tumblr</a>. Curious about web design, I experimented with the HTML of my blog and was fascinated by the changes I could make. Utilizing online resources such as W3Schools, I taught myself front-end programming and started creating Tumblr themes for others to use. 
+                    </p>
+                    
+                    <p>
+                    In high school, I started taking computer science classes, learning Java in AP Computer Science and JavaScript in Introduction to Web Design. I spent summer 2016 interning at Professor Jun Liu's statistics lab at Harvard, where I learned to program in R.
+                    </p>
+                    
+                    <p>
+                    Currently, I'm in my sophomore year at the University of Chicago, double-majoring in Computer Science and Economics with a specialization in Data Science. Since this summer, I have interned at the Computer Science branch of <a href = "https://www.canonlab.org/">UChicago STEM Education</a>, where I have developed two web apps and qualitatively coded over 600 sets of data.
+                    </p>
+                    
+                    <p>
+                    On campus, I am heavily involved in multiple student organizations. I am the Operations Manager for <a href="http://compileher.com/">compileHer</a>, an organization dedicated to engaging middle school girls in computer science through hands-on activities; additionally, I am the Vice President of Fraternity Development for the Illinois Kappa chapter of Pi Beta Phi.
+                    </p>
+                </div>
+            </div>
+            <div class = "two_right">
+                <img src="IMG_4146.JPG" id = "ashleypicture">
+            </div>
+        </div>
+        
+        <div id = "page3">
+            <a id = "projects"></a>
+            
+            <div class = "background3">
+                <div class = "projects_title_bg"><div class ="projects_title"><span id = "projects_title_text">projects</span></div></div>
+                
+                <div class = "projects">
+                    <div class = "project1">robot turtles</div>
+                    <div class = "project2">automated assesment</div>
+                    <div class = "project3">personal website</div>
+                </div>
+            </div>
+
+            
+        </div>
+        
+        <div id = "page4">
+            <a id = "resume"></a>
+            <div class = "background4">
+                <div class = "resume_banner">
+                    <div id = "resume_left"> 
+                        <span id = "resume_title">resumé</span>
+                        <br>
+                        <span id = "download">
+                            <a href = "">
+                            download PDF</a>
+                        </span>
+                    </div>
+                    <div class = "resume_right">
+                        <img src="Ashley_Wang_Resume.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id = "page5">
+            <div class = "background5">
+                <a id = "contact"></a>
+                <div class = "contact_title_bg"><div class ="contact_title"><span id = "contact_title_text">contact</span></div></div>
+                <br />
+                <div id="contact_content">
+                    <!--contact form-->
+                    <form id = "contact_right" action="done.htm">
+                        <fieldset>
+
+                            <legend>contact form:</legend>
+
+                            <input type="text" id="input" name="name" required placeholder="name*"><br>
+
+                            <input type="text" id="input" name="email" required placeholder="email*"><br>
+
+                            <textarea id="input" name="message" rows="15" required placeholder="message*"></textarea>
+
+                            <div>
+                                <input type="submit" value="submit" id="submit">
+                            </div>
+
+                        </fieldset>
+                    </form>
+                    
+                    
+                    <div id = "contact_left">
+                        <p><b>email</b></p>
+                        <p>wang.ashley049@gmail.com</p>
+                        <br>
+                        <p><b>telephone</b></p>
+                        <p>857 389 5369</p>
+                        <br>
+                        <p><b>address</b></p>
+                        <p>ashley wang</p>
+                        <p>317 christopher drive</p>
+                        <p>princeton, NJ 08540</p>
+                        <br>
+                        <p><a href="https://www.linkedin.com/">linkedin</a></p>
+                        <p><a href="https://www.facebook.com/">facebook</a></p>
+                        <p><a href="https://www.twitter.com/">twitter</a></p>
+                        <p><a href="https://www.instagram.com/">instagram</a></p>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
