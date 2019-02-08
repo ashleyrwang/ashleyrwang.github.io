@@ -1,0 +1,387 @@
+html {
+    background-color: #fff;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#dotstyle {
+	position: fixed;
+    left: 50px;
+    top: calc(50% - 88px);
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.dot {
+	position: relative;
+	display: block;
+	margin: 16px 0px;
+	width: 16px;
+	height: 16px;
+	cursor: help;
+}
+
+.dot a {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border-radius: 50%;
+	text-indent: -999em; /* make the text accessible to screen readers */
+	cursor: help;
+	position: absolute;
+    
+    overflow: hidden;
+	box-shadow: inset 0 0 0 2px #000;
+}
+
+
+.dot a:hover{
+    background-color:  #d1dcff;;
+}
+
+.selected a{
+    background-color:#d1dcff;;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.background {
+    width: calc(100% - 50px);
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: calc(100vh - 100px);
+    background-color: #D1DCFF;
+    min-width: 720px;
+    min-height: 300px;
+    position:absolute;
+}
+
+.header {
+    bottom: 0px;
+    position: absolute;
+}
+
+.title {
+    min-width: 720px;
+    margin-left: 50px;
+    font-size: calc(12px + 7.4vw);
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    line-height: calc(12px + 7.3vw);
+    margin-bottom: 5px;
+}
+
+#nav {
+    min-width: 974px;
+    width: calc(200px + 65vw);
+    font-size: calc(12px + 0.6vw);
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 5px;
+    border-spacing: 50px;
+}
+
+#nav th {
+    text-align: center;
+    height: 90px;
+    width: 300px;
+}
+
+#nav a {
+    border: 3px solid #000;
+    text-decoration: none;
+    color: #000;
+    display:inline-block;
+    width:100%;
+    height:100%;
+    line-height: 90px;
+}
+
+#nav a:hover {
+    color: #D1DCFF;
+    cursor:help;
+    background-color: #000;
+}
+
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    overflow:hidden;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.two_left{
+    width: 465px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+    height: calc(100vh - 100px);
+    z-index: 99;
+    overflow:visible;
+}
+
+.two_right{
+    background-color: #D1DCFF;
+    flex:1;
+    margin-right: 110px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    height: calc(100vh - 200px);
+    text-align: right;
+}
+
+
+#about_title {
+    background-color: #eee;
+    height: 150px;
+    width: 705px;
+}
+
+#about_title_text {
+    font-size: 48px;
+    
+    margin-left: 15px;
+    padding: 50px 0px 5px 20px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 15px;
+    width: 655px;
+    border-bottom: 5px solid #000;  
+    text-transform: uppercase;
+}
+
+
+#about_text {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 20px 10px;
+    width: 665px;
+    line-height: 1.5;
+}
+
+#about_text a {
+    color: #000;
+    border-bottom: 3px solid #d1dcff;
+    text-decoration: none;
+}
+
+#about_text a:hover {
+    color: #d1dcff;
+    cursor:help;
+}
+
+#ashleypicture {
+    width: 410px;
+    margin-right: 50px;
+    margin-top: calc(50vh - 434px);
+}
+
+#page3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-width: 1024px;
+    background-color: #f7f7f7;
+}
+
+.background3 {
+    padding-top: 100px;
+    width: 1150px;
+    margin-left: calc(50vw - 575px);
+}
+
+.projects_title_bg {
+    margin-top: calc(50vh - 400px);
+    width: 100%;
+    height: 90px;
+}
+
+.projects_title {
+    color: #000;
+    font-size: 48px;
+    padding-top: 41px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 15px; 
+    text-transform: uppercase;
+    line-height: 0.05em;
+    border-bottom: 5px solid #d1dcff;
+}
+
+#projects_title_text{
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 0px 5px 0px 10px;
+    background-color: #f7f7f7;
+}
+
+.projects {
+    margin-top:10px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.project1 {
+    flex: 1;
+    background-color:#d1dcff;
+    margin-right: 30px;
+}
+
+.project2{
+    flex: 1;
+    background-color:#d1dcff;
+    margin-right: 30px;
+}
+
+.project3 {
+    flex:1;
+    background-color:#d1dcff;
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    padding: 50px 0px;
+}
+
+.background4{
+    padding-top: 100px;
+    width: 1150px;
+    margin-left: calc(50vw - 575px);
+    display:flex;
+}
+
+.resume_banner {
+    width: 1150px;
+    background-color: #d1dcff;
+    height: 300px;
+    margin-top: calc(50vh - 300px);
+    display: flex;
+    text-align: center;
+}
+
+#resume_left{
+    flex: 1;
+}
+
+#resume_title{
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 15px; 
+    text-transform: uppercase;
+    display: inline-block;
+    border: 5px solid black;
+    padding: 25px 0px;
+    margin: 42px 0px 30px;
+    width: 350px;
+}
+
+#download{
+    font-size: 15px;
+    font-weight: 900;
+    display: inline-block;
+    padding: 20px 0px;
+    width: 360px;
+    margin-left: -4px;
+    letter-spacing: 0.5px;
+    background-color: #fff;
+}
+
+#download a{
+    color: #000;
+    text-decoration: none;
+}
+
+#download:hover{
+    cursor: help;
+}
+
+#download:hover a{
+        color: #d1dcff;
+    border-bottom: 3px solid #d1dcff;
+}
+
+.resume_right{
+    margin-top: calc(250px - 50vh);
+    margin-right: 80px;
+    height: calc(100vh - 100px);
+}
+
+.resume_right img{
+    border: 1px solid #000;
+    height: 100%;
+}
+
+#page5 {
+    width: 100%;
+    height: 100vh;
+    background-color: #1C1E26;
+    padding-top: 50px;
+}
+
+.background5{
+    width: 1150px;
+    margin-left: calc(50vw - 575px);
+    position:absolute;
+    margin-top: 100px;
+    height: calc(100vh - 200px);
+    
+}
+
+.contact_title_bg {
+    width: 100%;
+}
+
+.contact_title {
+    color: #fff;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 15px; 
+    text-transform: uppercase;
+    
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fff;
+}
+
+#contact_content {
+    display:flex;
+}
+
+#contact_left{
+    flex: 1;
+}
+
+#contact_right{
+    flex: 1;
+}
