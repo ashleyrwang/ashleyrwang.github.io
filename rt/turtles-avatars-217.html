@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<table>
+  <td><img onClick="load(this.id)" id="fish(green)" src="avatars/fish(green).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="fish(yellow)" src="avatars/fish(yellow).png"></td>
+  <td>       </td>
+</table>
+<table>
+  <td><img onClick="load(this.id)" id="frog(BBP)" src="avatars/frog(BBP).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="frog(GOP)" src="avatars/frog(GOP).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="frog(YBR)" src="avatars/frog(YBR).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="frog(YGR)" src="avatars/frog(YGR).png"></td>
+  <td>       </td>
+</table>
+<table>
+  <td><img onClick="load(this.id)" id="monkey(blue)" src="avatars/monkey(blue).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="monkey(green)" src="avatars/monkey(green).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="monkey(purple)" src="avatars/monkey(purple).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="monkey(red)" src="avatars/monkey(red).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="monkey(yellow)" src="avatars/monkey(yellow).png"></td>
+  <td>       </td>
+</table>
+<table>
+  <td><img onClick="load(this.id)" id="grasshopper" src="avatars/grasshopper.png"></td>
+  <td>       </td>
+</table>
+<table><text style="font-size:60px;">Click on your sticker!</text></table>
+<table><a href="turtles-teachers.html"><img src="art_assets/back_button.png"></a></table>
+
+<script>
+
+  var room = localStorage.getItem("curr_id");
+
+      // Send Log Entry to Server 
+  function send(action, avatar, room, inst, lvl){  
+	var http = new XMLHttpRequest();
+	var url = "/index.php";
+    var avatar = "avatar=".concat(avatar); 
+    var action = "action=".concat(action); 
+    var inst = "inst=".concat(inst);  
+    var level = "level=".concat(lvl); 
+	var room = "room=".concat(room);
+    var params = action 
+                  .concat("&").concat(inst) 
+                  .concat("&").concat(avatar) 
+				  .concat("&").concat(room)
+                  .concat("&").concat(level); 
+    http.open("POST", url, true); 
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+    http.send(params); 
+  } 
+
+  function load(id) {
+	send("LOGIN ", id, room, "", "");
+	location.href = "/turtles.html?avatar="+id+"&room="+room;	
+    localStorage.setItem("curr_id", room+id); // caching avatar for identification
+  }
+
+</script>
+
+</body>
+</html>

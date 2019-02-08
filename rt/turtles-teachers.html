@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<text style="font-size:60px;">Click on your room to begin!</text>
+<br>
+<table onmouseover="this.style.cursor='pointer'" onmouseout="this.style.cursor='default'">
+  <tr>
+      
+<!-- IMPORTANT uncomment lines starting with <br> to enable selection of quiz mode -->    
+    <td>
+      <img id="217" src="avatars/room217.png">
+      <!--<br><input id="cb217" type="checkbox">Quiz Mode for Room 217-->
+    </td>
+    <td>
+      <img id="219" src="avatars/room219.png">
+      <!--<br><input id="cb219" type="checkbox">Quiz Mode for Room 219-->
+    </td>
+  </tr>
+</table>
+
+<!-- IMPORTANT delete the two lines below if you want to disable Delete Persistent -->
+<!--<br><br><br>
+<button onclick="delete_persistent();">Delete Persistent (Warning: This will reset the saved levels of all avatars)</button> -->
+
+<script>
+  // Send Log Entry to Server
+  function send(action, avatar, inst, lvl){
+	var http = new XMLHttpRequest();
+	var url = "/index.php";
+    var avatar = "avatar=".concat(avatar);
+    var action = "action=".concat(action);
+    var inst = "inst=".concat(inst);
+    var level = "level=".concat(lvl);
+    var params = action
+                  .concat("&").concat(inst)
+                  .concat("&").concat(avatar)
+                  .concat("&").concat(level);
+    http.open("POST", url, true);
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    http.send(params);
+  }
+
+  // Delete Persistent
+  function delete_persistent() {
+    var ret = confirm('You are about ro reset the saved levels of all avatars in all rooms! Continue?');
+    if (ret == true) {
+      localStorage.clear();
+      alert("Persistent deleted.");
+    }
+  }
+
+  // Check for Quiz Mode
+  function quiz(room_num) {
+      //IMPORTANT to get rid of quiz mode, uncomment line below
+      return false;
+      //IMPORTANT to get rid of quiz mode, comment out line below
+      //return document.getElementById("cb" + room_num).checked;
+      
+      //default to quiz mode for rooms 217 and 219, normal for other rooms
+      
+  }
+
+  document.getElementById("217").onclick = function() {
+  location.href = "/turtles-avatars-217.html?room=217";
+    localStorage.setItem("curr_id", "217"); // caching room for identification
+    localStorage.setItem("quiz_mode", quiz("217"));
+    localStorage.setItem("board_number", "1-1");
+  }
+  document.getElementById("219").onclick = function() {
+  location.href = "/turtles-avatars-219.html?room=219";
+    localStorage.setItem("curr_id", "219"); // caching room for identification
+    localStorage.setItem("quiz_mode", quiz("219"));
+    localStorage.setItem("board_number", "1-1");
+  }
+  /*document.getElementById("226").onclick = function() {
+  location.href = "/turtles-avatars.html?room=226";
+    localStorage.setItem("curr_id", "226"); // caching room for identification
+    localStorage.setItem("quiz_mode", quiz("226"));
+  }
+  document.getElementById("227").onclick = function() {
+  location.href = "/turtles-avatars.html?room=227";
+    localStorage.setItem("curr_id", "227"); // caching room for identification
+    localStorage.setItem("quiz_mode", quiz("227"));
+  }
+  document.getElementById("228").onclick = function() {
+  location.href = "/turtles-avatars.html?room=228";
+    localStorage.setItem("curr_id", "228"); // caching room for identification
+    localStorage.setItem("quiz_mode", quiz("228"));
+  }
+  document.getElementById("229").onclick = function() {
+	location.href = "/turtles-avatars.html?room=229";
+    localStorage.setItem("curr_id", "229");
+    localStorage.setItem("quiz_mode", quiz("229"));
+  }
+  document.getElementById("230").onclick = function() {
+  location.href = "/turtles-avatars.html?room=230";
+    localStorage.setItem("curr_id", "230"); // caching room for identification
+    localStorage.setItem("quiz_mode", quiz("230"));
+  }
+  document.getElementById("231").onclick = function() {
+  location.href = "/turtles-avatars.html?room=231";
+    localStorage.setItem("curr_id", "231"); // caching room for identification
+    localStorage.setItem("quiz_mode", quiz("231"));
+  }*/
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<table>
+  <td><img onClick="load(this.id)" onClick="load(this.id)" id="bee(left)" src="avatars/bee(left).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="bee(diagonal)" src="avatars/bee(diagonal).png"></td>
+  <td>       </td>
+</table>
+<table>
+  <td><img onClick="load(this.id)" id="fish(purple)" src="avatars/fish(purple).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="fish(red)" src="avatars/fish(red).png"></td>
+  <td>       </td>
+</table>
+<table>
+  <td><img onClick="load(this.id)" id="frog(WBG)" src="avatars/frog(WBG).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="frog(YPB)" src="avatars/frog(YPB).png"></td>
+  <td>       </td>
+</table>
+<table>
+  <td><img onClick="load(this.id)" id="monkey(green)" src="avatars/monkey(green).png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="monkey(yellow)" src="avatars/monkey(yellow).png"></td>
+  <td>       </td>
+</table>
+<table>
+  <td><img onClick="load(this.id)" id="dragonfly" src="avatars/dragonfly.png"></td>
+  <td>       </td>
+  <td><img onClick="load(this.id)" id="grasshopper" src="avatars/grasshopper.png"></td>
+  <td>       </td>
+</table>
+<table><text style="font-size:60px;">Click on your sticker!</text></table>
+<table><a href="turtles-teachers.html"><img src="art_assets/back_button.png"></a></table>
+
+<script>
+
+  var room = localStorage.getItem("curr_id");
+
+      // Send Log Entry to Server 
+  function send(action, avatar, room, inst, lvl){  
+	var http = new XMLHttpRequest();
+	var url = "/index.php";
+    var avatar = "avatar=".concat(avatar); 
+    var action = "action=".concat(action); 
+    var inst = "inst=".concat(inst);  
+    var level = "level=".concat(lvl); 
+	var room = "room=".concat(room);
+    var params = action 
+                  .concat("&").concat(inst) 
+                  .concat("&").concat(avatar) 
+				  .concat("&").concat(room)
+                  .concat("&").concat(level); 
+    http.open("POST", url, true); 
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+    http.send(params); 
+  } 
+
+  function load(id) {
+	send("LOGIN ", id, room, "", "");
+	location.href = "/turtles.html?avatar="+id+"&room="+room;	
+    localStorage.setItem("curr_id", room+id); // caching avatar for identification
+  }
+
+</script>
+
+</body>
+</html>
