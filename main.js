@@ -1,8 +1,12 @@
 $(document).on('click', 'a', function(event){
+  if(this.hash != "") {
+    event.preventDefault();
+
     //animate scroll at 800 ms
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 800);
+  }
 });
 
 $(document).ready(function () {
