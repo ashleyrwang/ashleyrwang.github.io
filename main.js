@@ -1,6 +1,4 @@
 $(document).on('click', 'a', function(event){
-    event.preventDefault();
-    
     //animate scroll at 800 ms
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
@@ -10,7 +8,7 @@ $(document).on('click', 'a', function(event){
 $(document).ready(function () {
     $("#dot1").addClass('selected');
     var main = main = $('#dotstyle');
-    
+
     $(window).scroll(function (event) {
         if ($("#page1").offset().top < $(window).scrollTop() + $(window).outerHeight() - 470) {
             $("#dot1").addClass('selected');
